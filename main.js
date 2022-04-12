@@ -1,3 +1,5 @@
+difference = 0;
+
 function setup(){
     canvas = createCanvas(548, 411);
     canvas.center();
@@ -28,7 +30,7 @@ function got_result(results){
 
 function draw(){
     background('darkblue');
-    textSize(difference);
+    textSize(difference-100);
     fill('white');
     text('Devansh Pathak', 150, 202);
 }
